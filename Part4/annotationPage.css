@@ -1,0 +1,13 @@
+header {
+	font-family: Georgia, serif;
+	font-size: 40px;
+	color: darkblue;
+	text-align: center;
+}
+
+body {
+	font-family: 'Lucidia Sans Unicode', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}

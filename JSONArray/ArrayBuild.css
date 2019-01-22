@@ -1,0 +1,15 @@
+ul {
+	background-color:powderblue;
+	font-family: 'Dosis', sans-serif;
+	border: 5px solid darkblue;
+}
+
+header {
+	font-family: 'Charmonman', cursive;
+	font-size: 40px;
+	color: darkblue;
+}
+
+body {
+	background-color:lightgray;
+}

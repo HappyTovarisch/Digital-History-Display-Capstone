@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ 	<meta charset="utf-8">
+	<link rel="stylesheet" href="annotationPage.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="grid.css">
+
+	<title>Capstone 5: Annotation Pag Changes</title>
+
+</head>
+
+<body>
+
+	<header>
+		
+		<div id='name'></div>
+
+	</header>
+
+	<div id='annotations'></div>
+
+	<img  id="imagename" value="" />
+
+	<section>
+
+<form class="grid-container" method="post">
+	<div>
+		<label for="givenName">Given/First Name:</label>
+		<p></p>
+		<input type="hidden" id="newannotationtype" name="newannotationtype" value="givenName">
+		<input type="text" id="newannotationvalue" name="newannotationvalue" >
+		<button onclick="updateAnnotation()" type="submit" id="submitGivenName">Go</button>
+	</div>
+	<div>
+		<label for="familyName">Family/Last Name:</label>
+		<p></p>
+		<input type="text" id="familyName" name="familyName">
+		<button onclick="updateDeathDateAnnotation()" type="submit" id="submitFamilyName">Go</button>
+	</div>
+	<div>
+		<label for="birthDate">Birth Date:</label>
+		<p></p>
+		<input type="text" id="birthDate" name="birthDate">
+		<button onclick="updateDeathDateAnnotation()" type="submit" id="submitBirthDate">Go</button>
+	</div>
+	<div>
+		<label for="deathDate">Death Date:</label>
+		<p></p>
+		<input type="text" id="deathDate" name="deathDate">
+		<button onclick="updateDeathDateAnnotation()" type="submit" id="submitDeathDate">Go</button>
+	</div>
+</form>
+
+	</section>
+
+	<script src='annotationPage.js'></script>
+
+</body>
